@@ -21,7 +21,7 @@ try:
 
             if idade == "":
                 print("Erro! Não deixe vazio!")
-                continue
+                
 
             idade = int(idade)
 
