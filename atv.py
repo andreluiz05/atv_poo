@@ -1,11 +1,10 @@
 print("=CADASTRO DE USUÁRIO E IDADE=")
 
-user = str(input("Digite seu nome de usuário: "))
-if user == "" or user.isnumeric():
-    print("Usuário com número ou vazio! Preencha corretamente!")
-   
+user = input("Digite seu nome de usuário: ")
+
 while user == "" or user.isnumeric():
-        user = str(input("Digite seu nome de usuário: "))
+    print("Usuário inválido! Não pode ser vazio nem só números.")
+    user = input("Digite seu nome de usuário: ")
 
 print("Usuário aceito!")
 
